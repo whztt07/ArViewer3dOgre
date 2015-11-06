@@ -140,10 +140,17 @@ static void setupScene()
 
 static void initWindow()
 {
-	LOGI("------->initWindow()");
+	LOGI("------->initWindow() >>>>>>>>");
+
+	LOGI("Calling AConfiguration_new()");
 
 	AConfiguration* config = AConfiguration_new();
+
+	LOGI("AConfiguration_new() %p", config);
+
 	AConfiguration_fromAssetManager(config, gAssetManager);
+
+	LOGI("AConfiguration_fromAssetManager(config, gAssetManager) %p", config);
 
 	if (!gRenderWnd)
 	{
