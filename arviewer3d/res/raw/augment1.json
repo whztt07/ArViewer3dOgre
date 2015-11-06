@@ -1,0 +1,22 @@
+{
+    "name": "Augment 1",
+    "pois": [
+        {
+            "lon" : 11.577092,
+            "lat" : 48.129284,
+            "poiObjects": [
+                {
+                    "billboardHandling" : "sphere",
+                    "texture": "http://www.mission-base.com/augments/one.png",
+                    "startPosition": [
+                        {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
